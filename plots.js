@@ -91,10 +91,6 @@ function buildCharts(sample) {
         };
 
         Plotly.newPlot("bubble",bubbledata,layout);
-
-        Object.entries(sampleresult).forEach(([key, value]) =>
-            {console.log(key + " : " + value);})
-
         });
     
 };  
